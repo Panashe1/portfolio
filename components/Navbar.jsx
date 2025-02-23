@@ -135,17 +135,22 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </li>
           <li>
             <a className="font-Handjet" onClick={closeMenu} href="/#about">
-              About me
+              Software
             </a>
           </li>
           <li>
             <a className="font-Handjet" onClick={closeMenu} href="/#services">
-              Services
+              Engineer Services
             </a>
           </li>
           <li>
             <a className="font-Handjet" onClick={closeMenu} href="/#work">
               My Work
+            </a>
+          </li>
+          <li>
+            <a className="font-Handjet" href="/photography">
+              Photography
             </a>
           </li>
           <li>
