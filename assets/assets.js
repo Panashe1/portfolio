@@ -113,3 +113,18 @@ export const infoList = [
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
 ];
+
+export const photoData = [
+    {bgImage: '/photography-1.jpg'},
+    {bgImage: '/photography-2.jpg'},
+    {bgImage: '/photography-3.jpg'},
+    {bgImage: '/photography-4.jpg'},
+    {bgImage: '/photography-5.jpg'},
+    {bgImage: '/photography-6.jpg'},
+    {bgImage: '/photography-7.jpg'},
+    {bgImage: '/photography-8.jpg'},
+    {bgImage: '/photography-9.jpg'},
+    {bgImage: '/photography-10.jpg'},
+    {bgImage: '/photography-11.jpg'},
+    {bgImage: '/photography-12.jpg'},    
+];

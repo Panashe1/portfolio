@@ -31,7 +31,7 @@ export default function Home() {
 
   return (
     <>
-      {/* <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} /> */}
+      <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <PhotoGrid isDarkMode={isDarkMode} />
       <Footer isDarkMode={isDarkMode} />
     </>
