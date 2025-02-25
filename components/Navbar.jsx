@@ -36,11 +36,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             : ""
         }`}
       >
-        <a href="#top">
+        <a href="/#top">
           <Image
             src={isDarkMode ? assets.logo_dark : assets.logo}
             alt=""
-            className='w-28 alt="" cursor-pointer mr-14'
+            className='w-14 alt="" cursor-pointer mr-14'
           />
         </a>
 

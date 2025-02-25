@@ -16,7 +16,7 @@ const PhotoGrid = () => {
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.5 }}
-        className="text-center text-5xl font-Handjet mt-40"
+        className="text-center text-5xl font-Handjet mt-20"
       >
         My Photography
       </motion.h2>
@@ -25,7 +25,7 @@ const PhotoGrid = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.9, duration: 0.6 }}
-        className="grid grid-cols-1 md:grid-cols-2 my-10 gap-5 dark:text-black"
+        className="grid grid-cols-1 md:grid-cols-3 my-10 gap-5 dark:text-black"
       >
         {photoData.map((project, index) => (
           <motion.div
