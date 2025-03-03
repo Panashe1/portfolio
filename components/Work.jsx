@@ -46,7 +46,7 @@ const Work = ({ isDarkMode }) => {
         transition={{ delay: 0.9, duration: 0.6 }}
         className="grid grid-cols-6 my-10 gap-5 dark:text-black"
       >
-        {photoData.map((project, index) => (
+        {workData.map((project, index) => (
           <motion.div
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
